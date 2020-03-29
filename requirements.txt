@@ -1,0 +1,9 @@
+GPy==1.9.9
+cma
+cython
+nlopt
+pyDOE2
+pygame
+box2d-py
+pyfoam
+numpy-stl
