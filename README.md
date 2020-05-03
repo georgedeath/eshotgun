@@ -51,7 +51,7 @@ Manual installation is straight-forward for the optimisation library apart from 
 
 ```bash
 > # clone git repository
-> git clone https://bitbucket.org/georgedeath/eshotgun /es
+> git clone https://github.com/georgedeath/eshotgun /es
 > cd /es
 > # install python packages
 > conda create -n eshotgun scipy numpy matplotlib statsmodels swig jupyter 
