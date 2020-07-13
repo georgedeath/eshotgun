@@ -21,6 +21,11 @@ def estimate_L(model, xj, lengthscale, lb, ub):
 
         # simply take the norm of the expectation of the gradient
         res = np.sqrt((dmdx * dmdx).sum(1))
+        
+        # bfgs (scipy 1.5.0) expects shape (d,) rather than (1,d)
+        if x.shape[0] == 1:
+            res = res[0]
+            
         return -res
 
     # generate bounds, box constraint on xj
