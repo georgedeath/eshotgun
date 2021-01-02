@@ -2,9 +2,9 @@
 ## ε-shotgun: ε-greedy Batch Bayesian Optimisation
 
 This repository contains the Python3 code for the ε-shotgun method presented in:
-> George De Ath, Richard M. Everson, Jonathan E. Fieldsend, and Alma A. M. Rahat. 2020. ε-shotgun : ε-greedy Batch Bayesian Optimisation. In Genetic and Evolutionary Computation Conference (GECCO ’20), July 8–12, 2020, Cancún, Mexico. ACM, New York, NY, USA, 9 pages. 
-> **Paper:** https://doi.org/10.1145/3377930.3390154
-> **Preprint:** https://arxiv.org/abs/2002.01873
+> George De Ath, Richard M. Everson, Jonathan E. Fieldsend, and Alma A. M. Rahat. 2020. ε-shotgun : ε-greedy Batch Bayesian Optimisation. In Genetic and Evolutionary Computation Conference (GECCO ’20), July 8–12, 2020, Cancún, Mexico. ACM, New York, NY, USA, 9 pages.
+<br/>> **Paper:** https://doi.org/10.1145/3377930.3390154
+<br/>> **Preprint:** https://arxiv.org/abs/2002.01873
 
 The repository also contains all training data used for the initialisation of each of the 51 optimisation runs carried to evaluate each method, the optimisation results of each of the runs on each of the methods evaluated, and a jupyter notbook to generate the figures and tables in the paper.
 
